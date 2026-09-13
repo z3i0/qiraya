@@ -48,7 +48,7 @@
   "home": {
     "heroBadge": "Recitation • Reflection • Audio",
     "heroTitle": "And recite the Quran with measured recitation",
-    "heroSubtitle": "A calm, focused, and distraction-free sanctuary to recite the words of Allah, study verified translations, and listen to esteemed reciters.",
+    "heroSubtitle": "Read the Holy Quran with contemplation, and listen to recitations by renowned reciters in a calm, distraction-free space.",
     "startReading": "Start Reading",
     "browseReciters": "Listen to Recitations",
     "continueReading": "Continue Reading",
@@ -263,9 +263,9 @@
   "metadata": {
     "siteName": "Qiraya",
     "siteTitle": "Qiraya | Noble Quran Reading, Recitations & Reflection",
-    "siteDescription": "Read and listen to the Noble Quran online with clear Arabic text, verified English translations, audio recitations, and instant search.",
-    "ogTitle": "Qiraya | Noble Quran Platform",
-    "ogDescription": "Read, listen, and reflect upon the Holy Quran",
+    "siteDescription": "Read the Holy Quran in Uthmani script and listen to recitations by renowned reciters in a calm, distraction-free environment.",
+    "ogTitle": "Qiraya | Holy Quran Platform",
+    "ogDescription": "Read and listen to the Holy Quran with esteemed reciters",
     "quran": {
       "title": "Surahs of the Holy Quran | Qiraya",
       "description": "Browse all 114 Surahs of the Noble Quran with ayah counts, revelation origins, English translation, and recitation."
