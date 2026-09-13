@@ -63,7 +63,7 @@ export function BookmarksManager() {
       {/* Header */}
       <header className="flex flex-col sm:flex-row items-center justify-between gap-4 pb-6 border-b border-border">
         <div className="text-center sm:text-start">
-          <h1 className="text-2xl sm:text-3xl font-arabic font-bold text-foreground">
+          <h1 className="text-2xl sm:text-3xl font-bold text-foreground">
             {t("title")}
           </h1>
           <p className="text-xs sm:text-sm text-muted-foreground mt-1">

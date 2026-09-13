@@ -56,7 +56,7 @@ export function FeaturesBento() {
           <Sparkles className="size-3.5" />
           <span>{t("bentoBadge")}</span>
         </div>
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-arabic font-bold text-foreground tracking-tight">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground tracking-tight">
           {t("bentoTitle")}
         </h2>
         <p className="text-sm sm:text-base text-muted-foreground">

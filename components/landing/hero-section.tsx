@@ -59,7 +59,7 @@ export function HeroSection() {
         </div>
 
         {/* Hero Title (Single clear H1 per page) */}
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-arabic font-bold text-foreground tracking-tight leading-[1.25] sm:leading-[1.2] max-w-4xl mx-auto">
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-foreground tracking-tight leading-[1.25] sm:leading-[1.2] max-w-4xl mx-auto">
           {t("heroTitle")}
         </h1>
 

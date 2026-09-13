@@ -74,7 +74,7 @@ export function SettingsView() {
     <div className="w-full max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-12 space-y-8">
       {/* Header */}
       <header className="text-center sm:text-start pb-6 border-b border-border">
-        <h1 className="text-2xl sm:text-3xl font-arabic font-bold text-foreground">
+        <h1 className="text-2xl sm:text-3xl font-bold text-foreground">
           {t("title")}
         </h1>
         <p className="text-xs sm:text-sm text-muted-foreground mt-1">

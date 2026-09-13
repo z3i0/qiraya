@@ -29,7 +29,7 @@ export function RecitersMarquee() {
             <Sparkles className="size-3.5" />
             <span>{t("featuredRecitations")}</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-arabic font-bold text-foreground">
+          <h2 className="text-2xl sm:text-3xl font-bold text-foreground">
             {t("recitersMarqueeTitle")}
           </h2>
           <p className="text-xs sm:text-sm text-muted-foreground">

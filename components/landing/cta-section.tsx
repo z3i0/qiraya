@@ -21,7 +21,7 @@ export function CtaSection() {
           <span>{t("ctaBadge")}</span>
         </div>
 
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-arabic font-bold text-foreground tracking-tight leading-snug">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground tracking-tight leading-snug">
           {t("ctaTitle")}
         </h2>
 
