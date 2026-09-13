@@ -9,6 +9,10 @@ import {
   CtaSection,
 } from "@/components/landing";
 
+// Ensure the page executes dynamically on every request/refresh
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default async function HomePage() {
   const dailyVerseData = await getVerseOfTheDay();
 

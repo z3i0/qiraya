@@ -82,7 +82,7 @@ export function sanitizeAyahText(
 ): string {
   if (surahNumber === 1 || ayahNumberInSurah !== 1) return text;
 
-  let trimmed = text.trim();
+  const trimmed = text.trim();
   for (const prefix of BISMILLAH_PREFIXES) {
     if (trimmed.startsWith(prefix)) {
       return trimmed.slice(prefix.length).trim();
@@ -189,16 +189,16 @@ export async function getSurahAudio(
 }
 
 /**
- * Fetch single Ayah by global number with editions
+ * Fetch single Ayah by global number or surah:ayah reference with editions
  */
 export async function getAyahWithEditions(
-  ayahNumber: number,
+  ayahReference: number | string,
   arabicEdition = "quran-uthmani",
   translationEdition = "en.sahih"
 ): Promise<{ arabic: Ayah; translation?: Ayah } | null> {
   try {
     const data = await fetchFromApi<Ayah[]>(
-      `/ayah/${ayahNumber}/editions/${arabicEdition},${translationEdition}`,
+      `/ayah/${ayahReference}/editions/${arabicEdition},${translationEdition}`,
       86400
     );
 
@@ -214,7 +214,7 @@ export async function getAyahWithEditions(
     }
     return null;
   } catch (err) {
-    console.error(`Error fetching ayah ${ayahNumber}:`, err);
+    console.error(`Error fetching ayah ${ayahReference}:`, err);
     return null;
   }
 }
@@ -279,42 +279,84 @@ export async function getTranslationEditions(): Promise<Edition[]> {
 }
 
 /**
- * Deterministic Verse of the Day / Reflection
- * Uses day-of-year calculation across curated inspiring verses from the Holy Quran.
+ * Curated inspiring verses from the Holy Quran for reflection and contemplation (آيات التدبّر والسكينة).
+ * Formatted as "surah:ayah" for high precision and clarity.
  */
-const INSPIRING_VERSES = [
-  262,  // 2:255 (Ayat al-Kursi)
-  293,  // 2:286 (Allah does not burden a soul beyond that it can bear)
-  432,  // 3:139 (Do not weaken and do not grieve...)
-  1800, // 14:7 (If you are grateful, I will surely increase you)
-  2440, // 20:114 (My Lord, increase me in knowledge)
-  2570, // 21:87 (There is no deity except You; exalted are You...)
-  2928, // 25:74 (Our Lord, grant us from among our spouses and offspring comfort...)
-  3382, // 29:69 (And those who strive for Us - We will surely guide them...)
-  4111, // 39:53 (Say, O My servants who have transgressed against themselves...)
-  4625, // 49:13 (O mankind, indeed We have created you from male and female...)
-  5198, // 59:18 (O you who have believed, fear Allah. And let every soul look to what it has put forth...)
-  5240, // 65:3 (And whoever relies upon Allah - then He is sufficient for him)
-  6092, // 94:5 (For indeed, with hardship [will be] ease)
-  6093, // 94:6 (Indeed, with hardship [will be] ease)
+export const INSPIRING_VERSES: (string | number)[] = [
+  "2:152", // فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ
+  "2:186", // وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ
+  "2:255", // آية الكرسي
+  "2:286", // لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا
+  "3:139", // وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ
+  "3:159", // وَتَوَكَّلْ عَلَى اللَّهِ ۚ إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ
+  "3:200", // يَا أَيُّهَا الَّذِينَ آمَنُوا اصْبِرُوا وَصَابِرُوا وَرَابِطُوا
+  "4:135", // كُونُوا قَوَّامِينَ بِالْقِسْطِ
+  "6:59",  // وَعِندَهُ مَفَاتِحُ الْغَيْبِ لَا يَعْلَمُهَا إِلَّا هُوَ
+  "7:199", // خُذِ الْعَفْوَ وَأْمُرْ بِالْعُرْفِ وَأَعْرِضْ عَنِ الْجَاهِلِينَ
+  "9:128", // لَقَدْ جَاءَكُمْ رَسُولٌ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ
+  "9:129", // فَإِن تَوَلَّوْا فَقُلْ حَسْبِيَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ
+  "10:57", // قَدْ جَاءَتْكُم مَّوْعِظَةٌ مِّن رَّبِّكُمْ وَشِفَاءٌ لِّمَا فِي الصُّدُورِ
+  "11:88", // وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ ۚ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ
+  "12:86", // قَالَ إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ
+  "12:90", // إِنَّهُ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ
+  "13:28", // أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ
+  "14:7",  // لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ
+  "15:98", // فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ السَّاجِدِينَ
+  "16:90", // إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ
+  "16:128",// إِنَّ اللَّهَ مَعَ الَّذِينَ اتَّقَوا وَّالَّذِينَ هُم مُّحْسِنُونَ
+  "17:23", // وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ وَبِالْوَالِدَيْنِ إِحْسَانًا
+  "17:82", // وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِّلْمُؤْمِنِينَ
+  "18:46", // وَالْبَاقِيَاتُ الصَّالِحَاتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًا وَخَيْرٌ أَمَلًا
+  "20:114",// وَقُل رَّبِّ زِدْنِي عِلْمًا
+  "21:87", // لَّا إِلَٰهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ
+  "21:88", // فَاسْتَجَبْنَا لَهُ وَنَجَّيْنَاهُ مِنَ الْغَمِّ ۚ وَكَذَٰلِكَ نُنجِي الْمُؤْمِنِينَ
+  "24:35", // اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ
+  "25:63", // وَعِبَادُ الرَّحْمَٰنِ الَّذِينَ يَمْشُونَ عَلَى الْأَرْضِ هَوْنًا
+  "25:74", // رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ
+  "28:77", // وَأَحْسِن كَمَا أَحْسَنَ اللَّهُ إِلَيْكَ
+  "29:69", // وَالَّذِينَ جَاهَدُوا فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا
+  "30:21", // وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا
+  "33:41", // يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا
+  "39:53", // قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ
+  "40:60", // وَقَالَ رَبُّكُمُ ادْعُونِي أَسْتَجِبْ لَكُمْ
+  "41:34", // ادْفَعْ بِالَّتِي هِيَ أَحْسَنُ فَإِذَا الَّذِي بَيْنَكَ وَبَيْنَهُ عَدَاوَةٌ كَأَنَّهُ وَلِيٌّ حَمِيمٌ
+  "42:19", // اللَّهُ لَطِيفٌ بِعِبَادِهِ يَرْزُقُ مَن يَشَاءُ
+  "49:10", // إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ فَأَصْلِحُوا بَيْنَ أَخَوَيْكُمْ
+  "49:13", // إِنَّ أَكْرَمَكُمْ عِندَ اللَّهِ أَتْقَاكُمْ
+  "50:16", // وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ
+  "55:60", // هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ
+  "57:4",  // وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ
+  "59:18", // يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَلْتَنظُرْ نَفْسٌ مَّا قَدَّمَتْ لِغَدٍ
+  "65:2",  // وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا
+  "65:3",  // وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ
+  "67:2",  // الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا
+  "87:14", // قَدْ أَفْلَحَ مَن تَزَكَّىٰ
+  "93:3",  // مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ
+  "93:5",  // وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ
+  "94:5",  // فَإِنَّ مَعَ الْعُسْرِ يُسْرًا
+  "94:6",  // إِنَّ مَعَ الْعُسْرِ يُسْرًا
 ];
 
-export async function getVerseOfTheDay(): Promise<{
+/**
+ * Returns a random reflection verse from the curated inspiring verses on every call.
+ */
+export async function getRandomVerse(): Promise<{
   arabic: Ayah;
   translation?: Ayah;
 } | null> {
-  const now = new Date();
-  const startOfYear = new Date(now.getFullYear(), 0, 0);
-  const diff = now.getTime() - startOfYear.getTime();
-  const oneDay = 1000 * 60 * 60 * 24;
-  const dayOfYear = Math.floor(diff / oneDay);
-
-  const selectedGlobalAyahNumber =
-    INSPIRING_VERSES[dayOfYear % INSPIRING_VERSES.length];
+  const randomIndex = Math.floor(Math.random() * INSPIRING_VERSES.length);
+  const selectedRef = INSPIRING_VERSES[randomIndex];
 
   return await getAyahWithEditions(
-    selectedGlobalAyahNumber,
+    selectedRef,
     "quran-uthmani",
     "en.sahih"
   );
 }
+
+/**
+ * Alias for getRandomVerse to maintain backwards compatibility.
+ * Provides a fresh random verse on every refresh / request.
+ */
+export const getVerseOfTheDay = getRandomVerse;
+
