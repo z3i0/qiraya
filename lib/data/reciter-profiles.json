@@ -1,0 +1,1460 @@
+[
+  {
+    "id": 1,
+    "nameArabic": "إبراهيم الأخضر",
+    "nameEnglish": "Ibrahim Al-Akhdar",
+    "image": "/images/reciters/akhdar.png",
+    "aliases": [
+      "ابراهيم الاخضر",
+      "Ibrahim Al-Akdar"
+    ]
+  },
+  {
+    "id": 123,
+    "nameArabic": "مشاري العفاسي",
+    "nameEnglish": "Mishary Rashid Alafasy",
+    "image": "/images/reciters/alafasy.jpg",
+    "aliases": [
+      "Mishary Alafasy"
+    ]
+  },
+  {
+    "id": 51,
+    "nameArabic": "عبد الباسط عبد الصمد",
+    "nameEnglish": "Abdul Basit Abdus Samad",
+    "image": "/images/reciters/abdulbasit.png",
+    "aliases": [
+      "عبدالباسط عبدالصمد",
+      "Abdulbasit Abdulsamad"
+    ]
+  },
+  {
+    "id": 118,
+    "nameArabic": "محمود خليل الحصري",
+    "nameEnglish": "Mahmoud Khalil Al-Husary",
+    "image": "/images/reciters/husary.jpg",
+    "aliases": [
+      "الحصري",
+      "Mahmoud Al-Husary"
+    ]
+  },
+  {
+    "id": 112,
+    "nameArabic": "محمد صديق المنشاوي",
+    "nameEnglish": "Mohamed Siddiq El-Minshawi",
+    "image": "/images/reciters/minshawi.jpg",
+    "aliases": [
+      "المنشاوي",
+      "Mohamed El-Minshawi"
+    ]
+  },
+  {
+    "id": 54,
+    "nameArabic": "عبد الرحمن السديس",
+    "nameEnglish": "Abdurrahmaan As-Sudais",
+    "image": "/images/reciters/sudais.jpg",
+    "aliases": [
+      "عبدالرحمن السديس",
+      "السديس"
+    ]
+  },
+  {
+    "id": 102,
+    "nameArabic": "ماهر المعيقلي",
+    "nameEnglish": "Maher Al-Muaiqly",
+    "image": "/images/reciters/muaiqly.png",
+    "aliases": [
+      "المعيقلي",
+      "Maher Al Meaqli"
+    ]
+  },
+  {
+    "id": 92,
+    "nameArabic": "ياسر الدوسري",
+    "nameEnglish": "Yasser Al-Dosari",
+    "image": "/images/reciters/dosari.jpg",
+    "aliases": [
+      "الدوسري",
+      "Yasser Al-Dawsari"
+    ]
+  },
+  {
+    "id": 30,
+    "nameArabic": "سعد الغامدي",
+    "nameEnglish": "Saad Al-Ghamdi",
+    "image": "/images/reciters/ghamdi.jpg",
+    "aliases": [
+      "الغامدي",
+      "Saad Al Ghamdi"
+    ]
+  },
+  {
+    "id": 31,
+    "nameArabic": "سعود الشريم",
+    "nameEnglish": "Saud Al-Shuraim",
+    "image": "/images/reciters/shuraim.png",
+    "aliases": [
+      "الشريم",
+      "Saoud Al-Shuraim"
+    ]
+  },
+  {
+    "id": 125,
+    "nameArabic": "مصطفى إسماعيل",
+    "nameEnglish": "Mustafa Ismail",
+    "image": "/images/reciters/mustafa_ismail.jpg",
+    "aliases": [
+      "Mostafa Ismail"
+    ]
+  },
+  {
+    "id": 76,
+    "nameArabic": "علي جابر",
+    "nameEnglish": "Ali Jaber",
+    "image": "/images/reciters/ali_jaber.jpg",
+    "aliases": [
+      "Ali Abdallah Jaber"
+    ]
+  },
+  {
+    "id": 109,
+    "nameArabic": "محمد أيوب",
+    "nameEnglish": "Muhammad Ayyoub",
+    "image": "/images/reciters/ayyoub.jpg",
+    "aliases": [
+      "Mohammed Ayyub"
+    ]
+  },
+  {
+    "id": 138,
+    "nameArabic": "نورين محمد صديق",
+    "nameEnglish": "Noreen Mohamed Siddiq",
+    "image": "/images/reciters/noreen.jpg",
+    "aliases": [
+      "نورين صديق",
+      "Noreen Siddiq"
+    ]
+  },
+  {
+    "id": 5,
+    "nameArabic": "أحمد بن علي العجمي",
+    "nameEnglish": "Ahmed Al-Ajmi",
+    "image": "/images/reciters/ajmy.png",
+    "aliases": [
+      "أحمد العجمي",
+      "احمد العجمي"
+    ]
+  },
+  {
+    "id": 106,
+    "nameArabic": "محمد الطبلاوي",
+    "nameEnglish": "Mohamed Al-Tablawi",
+    "image": "/images/reciters/tablawi.jpeg",
+    "aliases": [
+      "محمد محمود الطبلاوي",
+      "الطبلاوي"
+    ]
+  },
+  {
+    "id": 121,
+    "nameArabic": "محمود علي البنا",
+    "nameEnglish": "Mahmoud Ali Al-Banna",
+    "image": "/images/reciters/banna.jpg",
+    "aliases": [
+      "محمود البنا",
+      "البنا"
+    ]
+  },
+  {
+    "id": 16,
+    "nameArabic": "العيون الكوشي",
+    "nameEnglish": "Al-Oyoun Al-Koushi",
+    "image": "/images/reciters/koushi.jpeg",
+    "aliases": [
+      "Aloyoun Al-Koushi"
+    ]
+  },
+  {
+    "id": 86,
+    "nameArabic": "ناصر القطامي",
+    "nameEnglish": "Nasser Al-Qatami",
+    "image": "/images/reciters/qatami.jpg",
+    "aliases": [
+      "القطامي",
+      "Nasser Alqatami"
+    ]
+  },
+  {
+    "id": 43,
+    "nameArabic": "صلاح البدير",
+    "nameEnglish": "Salah Al-Budair",
+    "image": "/images/reciters/budair.jpg",
+    "aliases": [
+      "البدير",
+      "Salah Albedair"
+    ]
+  },
+  {
+    "id": 4,
+    "nameArabic": "أبو بكر الشاطري",
+    "nameEnglish": "Abu Bakr Al-Shatri",
+    "image": "/images/reciters/shatri.jpg",
+    "aliases": [
+      "Abu Bakr Ash-Shaatree"
+    ]
+  },
+  {
+    "id": 74,
+    "nameArabic": "علي بن عبدالرحمن الحذيفي",
+    "nameEnglish": "Ali Al-Hudhaify",
+    "image": "/images/reciters/hudhaify.jpg",
+    "aliases": [
+      "علي الحذيفي",
+      "Ali Alhuthaifi"
+    ]
+  },
+  {
+    "id": 80,
+    "nameArabic": "عمر القزابري",
+    "nameEnglish": "Omar Al-Qazabri",
+    "image": "/images/reciters/qazabri.jpg",
+    "aliases": [
+      "القزابري",
+      "Omar Alqazabri"
+    ]
+  },
+  {
+    "id": 307,
+    "nameArabic": "عبدالعزيز سحيم",
+    "nameEnglish": "Abdulaziz Suheem",
+    "image": "/images/reciters/suheem.jpg",
+    "aliases": [
+      "سحيم",
+      "Abdulaziz Seheem"
+    ]
+  },
+  {
+    "id": 12,
+    "nameArabic": "إدريس أبكر",
+    "nameEnglish": "Idris Abkar",
+    "image": "/images/reciters/abkar.jpg",
+    "aliases": [
+      "Edrees Abkar"
+    ]
+  },
+  {
+    "id": 81,
+    "nameArabic": "فارس عباد",
+    "nameEnglish": "Fares Abbad",
+    "image": "/images/reciters/abbad.jpg",
+    "aliases": [
+      "Fares Abad"
+    ]
+  },
+  {
+    "id": 62,
+    "nameArabic": "عبدالله عواد الجهني",
+    "nameEnglish": "Abdullah Al-Juhany",
+    "image": "/images/reciters/juhany.png",
+    "aliases": [
+      "عبد الله عواد الجهني"
+    ]
+  },
+  {
+    "id": 46,
+    "nameArabic": "صلاح بو خاطر",
+    "nameEnglish": "Salah Bukhatir",
+    "image": "/images/reciters/bukhatir.jpg",
+    "aliases": [
+      "Salah Bu Khater"
+    ]
+  },
+  {
+    "id": 21,
+    "nameArabic": "خالد القحطاني",
+    "nameEnglish": "Khalid Al-Qahtani",
+    "image": "/images/reciters/qahtani.jpg",
+    "aliases": [
+      "Khaled Al-Qahtani"
+    ]
+  },
+  {
+    "id": 89,
+    "nameArabic": "هاني الرفاعي",
+    "nameEnglish": "Hani Al-Rifai",
+    "image": "/images/reciters/rifai.jpg",
+    "aliases": [
+      "Hani Ar-Rifai"
+    ]
+  },
+  {
+    "id": 111,
+    "nameArabic": "محمد جبريل",
+    "nameEnglish": "Muhammad Jibreel",
+    "image": "/images/reciters/jibreel.png",
+    "aliases": [
+      "Mohammed Jibreel"
+    ]
+  },
+  {
+    "id": 64,
+    "nameArabic": "عبدالرشيد صوفي",
+    "nameEnglish": "Abdul Rashid Sufi",
+    "image": "/images/reciters/sufi.jpg",
+    "aliases": [
+      "Abdulrasheed Soufi"
+    ]
+  },
+  {
+    "id": 23,
+    "nameArabic": "توفيق الصائغ",
+    "nameEnglish": "Tawfeeq Al-Sayegh",
+    "image": "/images/reciters/sayegh.jpg",
+    "aliases": [
+      "Tawfeeq As-Sayegh"
+    ]
+  },
+  {
+    "id": 13,
+    "nameArabic": "الزين محمد أحمد",
+    "nameEnglish": "Alzain Mohamed Ahmed",
+    "image": "/images/reciters/alzain.jpg",
+    "aliases": [
+      "Alzain Mohammed"
+    ]
+  },
+  {
+    "id": 201,
+    "nameArabic": "أحمد الطرابلسي",
+    "nameEnglish": "Ahmed Al-Tarabulsi",
+    "image": "/images/reciters/tarabulsi.jpg",
+    "aliases": [
+      "Ahmed Al-Trabulsi"
+    ]
+  },
+  {
+    "id": 10,
+    "nameArabic": "أكرم العلاقمي",
+    "nameEnglish": "Akram Al-Aalaqmi",
+    "image": "/images/reciters/alaqmi.jpg",
+    "aliases": [
+      "Akram Alalaqmi"
+    ]
+  },
+  {
+    "id": 104,
+    "nameArabic": "محمد الأيراوي",
+    "nameEnglish": "Mohammad Al-Airawy",
+    "image": "/images/reciters/104.jpg",
+    "aliases": [
+      "Mohammad Al-Airawy"
+    ]
+  },
+  {
+    "id": 105,
+    "nameArabic": "محمد البراك",
+    "nameEnglish": "Mohammed Al-Barrak",
+    "image": "/images/reciters/105.jpg",
+    "aliases": [
+      "Mohammed Al-Barrak"
+    ]
+  },
+  {
+    "id": 107,
+    "nameArabic": "محمد اللحيدان",
+    "nameEnglish": "Mohammed Al-Lohaidan",
+    "image": "/images/reciters/107.jpg",
+    "aliases": [
+      "Mohammed Al-Lohaidan"
+    ]
+  },
+  {
+    "id": 108,
+    "nameArabic": "محمد المحيسني",
+    "nameEnglish": "Mohammed Al-Muhasny",
+    "image": "/images/reciters/108.jpg",
+    "aliases": [
+      "Mohammed Al-Muhasny"
+    ]
+  },
+  {
+    "id": 11,
+    "nameArabic": "الحسيني العزازي",
+    "nameEnglish": "Alhusayni Al-Azazi",
+    "image": "/images/reciters/11.jpg",
+    "aliases": [
+      "Alhusayni Al-Azazi"
+    ]
+  },
+  {
+    "id": 126,
+    "nameArabic": "مصطفى اللاهوني",
+    "nameEnglish": "Mustafa Al-Lahoni",
+    "image": "/images/reciters/126.jpg",
+    "aliases": [
+      "Mustafa Al-Lahoni"
+    ]
+  },
+  {
+    "id": 128,
+    "nameArabic": "معمر الأندونيسي",
+    "nameEnglish": "Muamar (From Indonesia)",
+    "image": "/images/reciters/128.jpg",
+    "aliases": [
+      "Muamar (From Indonesia)"
+    ]
+  },
+  {
+    "id": 129,
+    "nameArabic": "مفتاح السلطني",
+    "nameEnglish": "Muftah Alsaltany",
+    "image": "/images/reciters/129.jpg",
+    "aliases": [
+      "Muftah Alsaltany"
+    ]
+  },
+  {
+    "id": 139,
+    "nameArabic": "ماجد الزامل",
+    "nameEnglish": "Majed Al-Zamil",
+    "image": "/images/reciters/139.jpg",
+    "aliases": [
+      "Majed Al-Zamil"
+    ]
+  },
+  {
+    "id": 149,
+    "nameArabic": "ماهر شخاشيرو",
+    "nameEnglish": "Maher Shakhashero",
+    "image": "/images/reciters/149.jpg",
+    "aliases": [
+      "Maher Shakhashero"
+    ]
+  },
+  {
+    "id": 15,
+    "nameArabic": "العشري عمران",
+    "nameEnglish": "Alashri Omran",
+    "image": "/images/reciters/15.jpg",
+    "aliases": [
+      "Alashri Omran"
+    ]
+  },
+  {
+    "id": 150,
+    "nameArabic": "محمد المنشد",
+    "nameEnglish": "Mohammad AlMonshed",
+    "image": "/images/reciters/150.jpg",
+    "aliases": [
+      "Mohammad AlMonshed"
+    ]
+  },
+  {
+    "id": 151,
+    "nameArabic": "محمود الشيمي",
+    "nameEnglish": "Mahmood AlSheimy",
+    "image": "/images/reciters/151.jpg",
+    "aliases": [
+      "Mahmood AlSheimy"
+    ]
+  },
+  {
+    "id": 152,
+    "nameArabic": "ياسر سلامة",
+    "nameEnglish": "Yasser Salamah",
+    "image": "/images/reciters/152.jpg",
+    "aliases": [
+      "Yasser Salamah"
+    ]
+  },
+  {
+    "id": 154,
+    "nameArabic": "أستاذ زامري",
+    "nameEnglish": "Ustaz Zamri",
+    "image": "/images/reciters/154.jpg",
+    "aliases": [
+      "Ustaz Zamri"
+    ]
+  },
+  {
+    "id": 159,
+    "nameArabic": "خالد المهنا",
+    "nameEnglish": "Khalid Almohana",
+    "image": "/images/reciters/159.jpg",
+    "aliases": [
+      "Khalid Almohana"
+    ]
+  },
+  {
+    "id": 160,
+    "nameArabic": "عادل الكلباني",
+    "nameEnglish": "Adel Al-Khalbany",
+    "image": "/images/reciters/160.jpg",
+    "aliases": [
+      "Adel Al-Khalbany"
+    ]
+  },
+  {
+    "id": 161,
+    "nameArabic": "موسى بلال",
+    "nameEnglish": "Mousa Bilal",
+    "image": "/images/reciters/161.jpg",
+    "aliases": [
+      "Mousa Bilal"
+    ]
+  },
+  {
+    "id": 162,
+    "nameArabic": "حسين آل الشيخ",
+    "nameEnglish": "Hussain Alshaik",
+    "image": "/images/reciters/162.jpg",
+    "aliases": [
+      "Hussain Alshaik"
+    ]
+  },
+  {
+    "id": 163,
+    "nameArabic": "حاتم فريد الواعر",
+    "nameEnglish": "Hatem Fareed Alwaer",
+    "image": "/images/reciters/163.jpg",
+    "aliases": [
+      "Hatem Fareed Alwaer"
+    ]
+  },
+  {
+    "id": 164,
+    "nameArabic": "إبراهيم الجرمي",
+    "nameEnglish": "Ibrahim Aljormy",
+    "image": "/images/reciters/164.jpg",
+    "aliases": [
+      "Ibrahim Aljormy"
+    ]
+  },
+  {
+    "id": 165,
+    "nameArabic": "محمود الرفاعي",
+    "nameEnglish": "Mahmood Al rifai",
+    "image": "/images/reciters/165.jpg",
+    "aliases": [
+      "Mahmood Al rifai"
+    ]
+  },
+  {
+    "id": 166,
+    "nameArabic": "ناصر العبيد",
+    "nameEnglish": "Nasser Al obaid",
+    "image": "/images/reciters/166.jpg",
+    "aliases": [
+      "Nasser Al obaid"
+    ]
+  },
+  {
+    "id": 167,
+    "nameArabic": "واصل المذن",
+    "nameEnglish": "Wasel Almethen",
+    "image": "/images/reciters/167.jpg",
+    "aliases": [
+      "Wasel Almethen"
+    ]
+  },
+  {
+    "id": 17,
+    "nameArabic": "توفيق الصايغ",
+    "nameEnglish": "Tawfeeq As-Sayegh",
+    "image": "/images/reciters/17.jpg",
+    "aliases": [
+      "Tawfeeq As-Sayegh"
+    ]
+  },
+  {
+    "id": 178,
+    "nameArabic": "إبراهيم الدوسري",
+    "nameEnglish": "Ibrahim Aldosari",
+    "image": "/images/reciters/178.jpg",
+    "aliases": [
+      "Ibrahim Aldosari"
+    ]
+  },
+  {
+    "id": 18,
+    "nameArabic": "جمال شاكر عبدالله",
+    "nameEnglish": "Jamal Shaker Abdullah",
+    "image": "/images/reciters/18.jpg",
+    "aliases": [
+      "Jamal Shaker Abdullah"
+    ]
+  },
+  {
+    "id": 181,
+    "nameArabic": "جمعان العصيمي",
+    "nameEnglish": "Jamaan Alosaimi",
+    "image": "/images/reciters/181.jpg",
+    "aliases": [
+      "Jamaan Alosaimi"
+    ]
+  },
+  {
+    "id": 183,
+    "nameArabic": "رضية عبدالرحمن",
+    "nameEnglish": "Rodziah Abdulrahman",
+    "image": "/images/reciters/183.png",
+    "aliases": [
+      "Rodziah Abdulrahman"
+    ]
+  },
+  {
+    "id": 184,
+    "nameArabic": "رقية سولونق",
+    "nameEnglish": "Rogayah Sulong",
+    "image": "/images/reciters/184.png",
+    "aliases": [
+      "Rogayah Sulong"
+    ]
+  },
+  {
+    "id": 185,
+    "nameArabic": "سابينة مامات",
+    "nameEnglish": "Sapinah Mamat",
+    "image": "/images/reciters/185.png",
+    "aliases": [
+      "Sapinah Mamat"
+    ]
+  },
+  {
+    "id": 188,
+    "nameArabic": "عبدالغني عبدالله",
+    "nameEnglish": "Abdulghani Abdullah",
+    "image": "/images/reciters/188.png",
+    "aliases": [
+      "Abdulghani Abdullah"
+    ]
+  },
+  {
+    "id": 189,
+    "nameArabic": "عبدالله فهمي",
+    "nameEnglish": "Abdullah Fahmi",
+    "image": "/images/reciters/189.jpg",
+    "aliases": [
+      "Abdullah Fahmi"
+    ]
+  },
+  {
+    "id": 19,
+    "nameArabic": "حمد الدغريري",
+    "nameEnglish": "Hamad Al Daghriri",
+    "image": "/images/reciters/19.png",
+    "aliases": [
+      "Hamad Al Daghriri"
+    ]
+  },
+  {
+    "id": 190,
+    "nameArabic": "محمد الحافظ",
+    "nameEnglish": "Muhammad Al-Hafiz",
+    "image": "/images/reciters/190.png",
+    "aliases": [
+      "Muhammad Al-Hafiz"
+    ]
+  },
+  {
+    "id": 191,
+    "nameArabic": "محمد حفص علي",
+    "nameEnglish": "Mohammed Hafas Ali",
+    "image": "/images/reciters/191.png",
+    "aliases": [
+      "Mohammed Hafas Ali"
+    ]
+  },
+  {
+    "id": 192,
+    "nameArabic": "محمد خير النور",
+    "nameEnglish": "Muhammed Khairul Anuar",
+    "image": "/images/reciters/192.jpg",
+    "aliases": [
+      "Muhammed Khairul Anuar"
+    ]
+  },
+  {
+    "id": 193,
+    "nameArabic": "يوسف بن نوح أحمد",
+    "nameEnglish": "Yousef Bin Noah Ahmad",
+    "image": "/images/reciters/193.jpg",
+    "aliases": [
+      "Yousef Bin Noah Ahmad"
+    ]
+  },
+  {
+    "id": 194,
+    "nameArabic": "جمال الدين الزيلعي",
+    "nameEnglish": "Jamal Addeen Alzailaie",
+    "image": "/images/reciters/194.jpg",
+    "aliases": [
+      "Jamal Addeen Alzailaie"
+    ]
+  },
+  {
+    "id": 197,
+    "nameArabic": "معيض الحارثي",
+    "nameEnglish": "Moeedh Alharthi",
+    "image": "/images/reciters/197.png",
+    "aliases": [
+      "Moeedh Alharthi"
+    ]
+  },
+  {
+    "id": 198,
+    "nameArabic": "محمد رشاد الشريف",
+    "nameEnglish": "Mohammad Rashad Alshareef",
+    "image": "/images/reciters/198.jpg",
+    "aliases": [
+      "Mohammad Rashad Alshareef"
+    ]
+  },
+  {
+    "id": 2,
+    "nameArabic": "إبراهيم الجبرين",
+    "nameEnglish": "Ibrahim Al-Jebreen",
+    "image": "/images/reciters/2.jpg",
+    "aliases": [
+      "Ibrahim Al-Jebreen"
+    ]
+  },
+  {
+    "id": 20,
+    "nameArabic": "خالد الجليل",
+    "nameEnglish": "Khalid Al-Jileel",
+    "image": "/images/reciters/20.jpg",
+    "aliases": [
+      "Khalid Al-Jileel"
+    ]
+  },
+  {
+    "id": 202,
+    "nameArabic": "عبدالله الكندري",
+    "nameEnglish": "Abdullah Al-Kandari",
+    "image": "/images/reciters/202.jpg",
+    "aliases": [
+      "Abdullah Al-Kandari"
+    ]
+  },
+  {
+    "id": 203,
+    "nameArabic": "أحمد عامر",
+    "nameEnglish": "Ahmed Amer",
+    "image": "/images/reciters/203.jpg",
+    "aliases": [
+      "Ahmed Amer"
+    ]
+  },
+  {
+    "id": 204,
+    "nameArabic": "إبراهيم السعدان",
+    "nameEnglish": "Ibrahem Assadan",
+    "image": "/images/reciters/204.png",
+    "aliases": [
+      "Ibrahem Assadan"
+    ]
+  },
+  {
+    "id": 205,
+    "nameArabic": "أحمد الحذيفي",
+    "nameEnglish": "Ahmad Alhuthaifi",
+    "image": "/images/reciters/205.jpg",
+    "aliases": [
+      "Ahmad Alhuthaifi"
+    ]
+  },
+  {
+    "id": 206,
+    "nameArabic": "محمد عثمان خان",
+    "nameEnglish": "Mohammed Osman Khan",
+    "image": "/images/reciters/206.jpg",
+    "aliases": [
+      "Mohammed Osman Khan"
+    ]
+  },
+  {
+    "id": 207,
+    "nameArabic": "يوسف الدغوش",
+    "nameEnglish": "Youssef Edghouch",
+    "image": "/images/reciters/207.jpg",
+    "aliases": [
+      "Youssef Edghouch"
+    ]
+  },
+  {
+    "id": 208,
+    "nameArabic": "الدوكالي محمد العالم",
+    "nameEnglish": "Addokali Mohammad Alalim",
+    "image": "/images/reciters/208.jpg",
+    "aliases": [
+      "Addokali Mohammad Alalim"
+    ]
+  },
+  {
+    "id": 209,
+    "nameArabic": "وشيار حيدر اربيلي",
+    "nameEnglish": "Wishear Hayder Arbili",
+    "image": "/images/reciters/209.png",
+    "aliases": [
+      "Wishear Hayder Arbili"
+    ]
+  },
+  {
+    "id": 211,
+    "nameArabic": "الفاتح محمد الزبير",
+    "nameEnglish": "Alfateh Alzubair",
+    "image": "/images/reciters/211.jpg",
+    "aliases": [
+      "Alfateh Alzubair"
+    ]
+  },
+  {
+    "id": 21199,
+    "nameArabic": "عبد المجيب بنكيران",
+    "nameEnglish": "Abdelmoujib Benkirane",
+    "image": "/images/reciters/21199.jpg",
+    "aliases": [
+      "Abdelmoujib Benkirane"
+    ]
+  },
+  {
+    "id": 212,
+    "nameArabic": "طارق عبدالغني دعوب",
+    "nameEnglish": "Tareq Abdulgani daawob",
+    "image": "/images/reciters/212.png",
+    "aliases": [
+      "Tareq Abdulgani daawob"
+    ]
+  },
+  {
+    "id": 217,
+    "nameArabic": "بندر بليله",
+    "nameEnglish": "Bandar Balilah",
+    "image": "/images/reciters/217.jpg",
+    "aliases": [
+      "Bandar Balilah"
+    ]
+  },
+  {
+    "id": 221,
+    "nameArabic": "رعد محمد الكردي",
+    "nameEnglish": "Raad Al Kurdi",
+    "image": "/images/reciters/221.jpg",
+    "aliases": [
+      "Raad Al Kurdi"
+    ]
+  },
+  {
+    "id": 225,
+    "nameArabic": "عبدالرحمن العوسي",
+    "nameEnglish": "Abdulrahman Aloosi",
+    "image": "/images/reciters/225.jpg",
+    "aliases": [
+      "Abdulrahman Aloosi"
+    ]
+  },
+  {
+    "id": 226,
+    "nameArabic": "خالد الغامدي",
+    "nameEnglish": "Khalid Algamdi",
+    "image": "/images/reciters/226.jpg",
+    "aliases": [
+      "Khalid Algamdi"
+    ]
+  },
+  {
+    "id": 227,
+    "nameArabic": "رمضان شكور",
+    "nameEnglish": "Ramadan Shakoor",
+    "image": "/images/reciters/227.jpg",
+    "aliases": [
+      "Ramadan Shakoor"
+    ]
+  },
+  {
+    "id": 228,
+    "nameArabic": "عبدالمجيد الأركاني",
+    "nameEnglish": "Abdulmajeed Al-Arkani",
+    "image": "/images/reciters/228.jpg",
+    "aliases": [
+      "Abdulmajeed Al-Arkani"
+    ]
+  },
+  {
+    "id": 229,
+    "nameArabic": "محمد خليل القارئ",
+    "nameEnglish": "Mohammad Khalil Al-Qari",
+    "image": "/images/reciters/229.jpg",
+    "aliases": [
+      "Mohammad Khalil Al-Qari"
+    ]
+  },
+  {
+    "id": 231,
+    "nameArabic": "هزاع البلوشي",
+    "nameEnglish": "Hazza Al-Balushi",
+    "image": "/images/reciters/231.jpg",
+    "aliases": [
+      "Hazza Al-Balushi"
+    ]
+  },
+  {
+    "id": 24,
+    "nameArabic": "خليفة الطنيجي",
+    "nameEnglish": "Khalifa Altunaiji",
+    "image": "/images/reciters/24.jpg",
+    "aliases": [
+      "Khalifa Altunaiji"
+    ]
+  },
+  {
+    "id": 240,
+    "nameArabic": "سلمان العتيبي",
+    "nameEnglish": "Salman Alotaibi",
+    "image": "/images/reciters/240.jpg",
+    "aliases": [
+      "Salman Alotaibi"
+    ]
+  },
+  {
+    "id": 241,
+    "nameArabic": "محمد رفعت",
+    "nameEnglish": "Mohammad Refat",
+    "image": "/images/reciters/241.jpg",
+    "aliases": [
+      "Mohammad Refat"
+    ]
+  },
+  {
+    "id": 245,
+    "nameArabic": "منصور السالمي",
+    "nameEnglish": "Mansour Al-Salemi",
+    "image": "/images/reciters/245.jpg",
+    "aliases": [
+      "Mansour Al-Salemi"
+    ]
+  },
+  {
+    "id": 25,
+    "nameArabic": "داود حمزة",
+    "nameEnglish": "Dawood Hamza",
+    "image": "/images/reciters/25.jpg",
+    "aliases": [
+      "Dawood Hamza"
+    ]
+  },
+  {
+    "id": 253,
+    "nameArabic": "إسلام صبحي",
+    "nameEnglish": "Islam Sobhi",
+    "image": "/images/reciters/253.jpg",
+    "aliases": [
+      "Islam Sobhi"
+    ]
+  },
+  {
+    "id": 256,
+    "nameArabic": "أحمد خليل شاهين",
+    "nameEnglish": "Ahmad Shaheen",
+    "image": "/images/reciters/256.jpg",
+    "aliases": [
+      "Ahmad Shaheen"
+    ]
+  },
+  {
+    "id": 259,
+    "nameArabic": "أحمد النفيس",
+    "nameEnglish": "Ahmad Al Nufais",
+    "image": "/images/reciters/259.jpg",
+    "aliases": [
+      "Ahmad Al Nufais"
+    ]
+  },
+  {
+    "id": 26,
+    "nameArabic": "رشيد إفراد",
+    "nameEnglish": "Rasheed Ifrad",
+    "image": "/images/reciters/26.jpg",
+    "aliases": [
+      "Rasheed Ifrad"
+    ]
+  },
+  {
+    "id": 264,
+    "nameArabic": "يونس اسويلص",
+    "nameEnglish": "Younes Souilass",
+    "image": "/images/reciters/264.jpg",
+    "aliases": [
+      "Younes Souilass"
+    ]
+  },
+  {
+    "id": 267,
+    "nameArabic": "عبدالله كامل",
+    "nameEnglish": "Abdullah Kamel",
+    "image": "/images/reciters/267.jpg",
+    "aliases": [
+      "Abdullah Kamel"
+    ]
+  },
+  {
+    "id": 268,
+    "nameArabic": "بيشه وا قادر الكردي",
+    "nameEnglish": "Peshawa Qadr Al-Kurdi",
+    "image": "/images/reciters/268.jpg",
+    "aliases": [
+      "Peshawa Qadr Al-Kurdi"
+    ]
+  },
+  {
+    "id": 27,
+    "nameArabic": "رشيد بلعالية",
+    "nameEnglish": "Rachid Belalya",
+    "image": "/images/reciters/27.jpg",
+    "aliases": [
+      "Rachid Belalya"
+    ]
+  },
+  {
+    "id": 272,
+    "nameArabic": "عكاشة كميني",
+    "nameEnglish": "Okasha Kameny",
+    "image": "/images/reciters/272.jpg",
+    "aliases": [
+      "Okasha Kameny"
+    ]
+  },
+  {
+    "id": 274,
+    "nameArabic": "محمد أبو سنينة",
+    "nameEnglish": "Muhammad Abu Sneina",
+    "image": "/images/reciters/274.jpg",
+    "aliases": [
+      "Muhammad Abu Sneina"
+    ]
+  },
+  {
+    "id": 278,
+    "nameArabic": "أحمد عيسى المعصراوي",
+    "nameEnglish": "Ahmad Issa Al Maasaraawi",
+    "image": "/images/reciters/278.jpg",
+    "aliases": [
+      "Ahmad Issa Al Maasaraawi"
+    ]
+  },
+  {
+    "id": 281,
+    "nameArabic": "فؤاد الخامري",
+    "nameEnglish": "Fouad Alkhamery",
+    "image": "/images/reciters/281.jpg",
+    "aliases": [
+      "Fouad Alkhamery"
+    ]
+  },
+  {
+    "id": 3,
+    "nameArabic": "إبراهيم العسيري",
+    "nameEnglish": "Ibrahim Al-Asiri",
+    "image": "/images/reciters/3.jpg",
+    "aliases": [
+      "Ibrahim Al-Asiri"
+    ]
+  },
+  {
+    "id": 305,
+    "nameArabic": "هشام الهراز",
+    "nameEnglish": "Hicham Lharraz",
+    "image": "/images/reciters/305.jpg",
+    "aliases": [
+      "Hicham Lharraz"
+    ]
+  },
+  {
+    "id": 32,
+    "nameArabic": "سهل ياسين",
+    "nameEnglish": "Sahl Yassin",
+    "image": "/images/reciters/32.jpg",
+    "aliases": [
+      "Sahl Yassin"
+    ]
+  },
+  {
+    "id": 33,
+    "nameArabic": "زكي داغستاني",
+    "nameEnglish": "Zaki Daghistani",
+    "image": "/images/reciters/33.jpg",
+    "aliases": [
+      "Zaki Daghistani"
+    ]
+  },
+  {
+    "id": 34,
+    "nameArabic": "سامي الحسن",
+    "nameEnglish": "Sami Al-Hasn",
+    "image": "/images/reciters/34.jpg",
+    "aliases": [
+      "Sami Al-Hasn"
+    ]
+  },
+  {
+    "id": 35,
+    "nameArabic": "سامي الدوسري",
+    "nameEnglish": "Sami Al-Dosari",
+    "image": "/images/reciters/35.jpg",
+    "aliases": [
+      "Sami Al-Dosari"
+    ]
+  },
+  {
+    "id": 36,
+    "nameArabic": "سيد رمضان",
+    "nameEnglish": "Sayeed Ramadan",
+    "image": "/images/reciters/36.jpg",
+    "aliases": [
+      "Sayeed Ramadan"
+    ]
+  },
+  {
+    "id": 37,
+    "nameArabic": "شعبان الصياد",
+    "nameEnglish": "Shaban Al-Sayiaad",
+    "image": "/images/reciters/37.jpg",
+    "aliases": [
+      "Shaban Al-Sayiaad"
+    ]
+  },
+  {
+    "id": 38,
+    "nameArabic": "شيرزاد عبدالرحمن طاهر",
+    "nameEnglish": "Shirazad Taher",
+    "image": "/images/reciters/38.png",
+    "aliases": [
+      "Shirazad Taher"
+    ]
+  },
+  {
+    "id": 40,
+    "nameArabic": "صالح الصاهود",
+    "nameEnglish": "Saleh Alsahood",
+    "image": "/images/reciters/40.png",
+    "aliases": [
+      "Saleh Alsahood"
+    ]
+  },
+  {
+    "id": 41,
+    "nameArabic": "صالح آل طالب",
+    "nameEnglish": "Saleh Al-Talib",
+    "image": "/images/reciters/41.jpg",
+    "aliases": [
+      "Saleh Al-Talib"
+    ]
+  },
+  {
+    "id": 42,
+    "nameArabic": "صالح الهبدان",
+    "nameEnglish": "Saleh Al-Habdan",
+    "image": "/images/reciters/42.jpg",
+    "aliases": [
+      "Saleh Al-Habdan"
+    ]
+  },
+  {
+    "id": 44,
+    "nameArabic": "صلاح الهاشم",
+    "nameEnglish": "Salah Alhashim",
+    "image": "/images/reciters/44.jpg",
+    "aliases": [
+      "Salah Alhashim"
+    ]
+  },
+  {
+    "id": 48,
+    "nameArabic": "عادل ريان",
+    "nameEnglish": "Adel Ryyan",
+    "image": "/images/reciters/48.jpg",
+    "aliases": [
+      "Adel Ryyan"
+    ]
+  },
+  {
+    "id": 56,
+    "nameArabic": "عبدالعزيز الزهراني",
+    "nameEnglish": "Abdulaziz Az-Zahrani",
+    "image": "/images/reciters/56.png",
+    "aliases": [
+      "Abdulaziz Az-Zahrani"
+    ]
+  },
+  {
+    "id": 57,
+    "nameArabic": "عبدالله البريمي",
+    "nameEnglish": "Abdullah Al-Burimi",
+    "image": "/images/reciters/57.jpg",
+    "aliases": [
+      "Abdullah Al-Burimi"
+    ]
+  },
+  {
+    "id": 58,
+    "nameArabic": "عبدالله البعيجان",
+    "nameEnglish": "Abdullah Albuajan",
+    "image": "/images/reciters/58.jpg",
+    "aliases": [
+      "Abdullah Albuajan"
+    ]
+  },
+  {
+    "id": 59,
+    "nameArabic": "عبدالله المطرود",
+    "nameEnglish": "Abdullah Al-Mattrod",
+    "image": "/images/reciters/59.jpg",
+    "aliases": [
+      "Abdullah Al-Mattrod"
+    ]
+  },
+  {
+    "id": 6,
+    "nameArabic": "أحمد الحواشي",
+    "nameEnglish": "Ahmad Al-Hawashi",
+    "image": "/images/reciters/6.jpg",
+    "aliases": [
+      "Ahmad Al-Hawashi"
+    ]
+  },
+  {
+    "id": 60,
+    "nameArabic": "عبدالله بصفر",
+    "nameEnglish": "Abdullah Basfer",
+    "image": "/images/reciters/60.jpg",
+    "aliases": [
+      "Abdullah Basfer"
+    ]
+  },
+  {
+    "id": 61,
+    "nameArabic": "عبدالله خياط",
+    "nameEnglish": "Abdullah Khayyat",
+    "image": "/images/reciters/61.jpg",
+    "aliases": [
+      "Abdullah Khayyat"
+    ]
+  },
+  {
+    "id": 63,
+    "nameArabic": "عبدالله غيلان",
+    "nameEnglish": "Abdullah Qaulan",
+    "image": "/images/reciters/63.jpg",
+    "aliases": [
+      "Abdullah Qaulan"
+    ]
+  },
+  {
+    "id": 67,
+    "nameArabic": "عبدالمحسن القاسم",
+    "nameEnglish": "Abdulmohsen Al-Qasim",
+    "image": "/images/reciters/67.png",
+    "aliases": [
+      "Abdulmohsen Al-Qasim"
+    ]
+  },
+  {
+    "id": 68,
+    "nameArabic": "عبدالمحسن العسكر",
+    "nameEnglish": "Abdulmohsin Al-Askar",
+    "image": "/images/reciters/68.jpg",
+    "aliases": [
+      "Abdulmohsin Al-Askar"
+    ]
+  },
+  {
+    "id": 69,
+    "nameArabic": "عبدالمحسن العبيكان",
+    "nameEnglish": "Abdulmohsin Al-Obaikan",
+    "image": "/images/reciters/69.jpg",
+    "aliases": [
+      "Abdulmohsin Al-Obaikan"
+    ]
+  },
+  {
+    "id": 70,
+    "nameArabic": "عبدالهادي أحمد كناكري",
+    "nameEnglish": "Abdulhadi Kanakeri",
+    "image": "/images/reciters/70.png",
+    "aliases": [
+      "Abdulhadi Kanakeri"
+    ]
+  },
+  {
+    "id": 73,
+    "nameArabic": "علي أبو هاشم",
+    "nameEnglish": "Ali Abo-Hashim",
+    "image": "/images/reciters/73.jpg",
+    "aliases": [
+      "Ali Abo-Hashim"
+    ]
+  },
+  {
+    "id": 77,
+    "nameArabic": "علي حجاج السويسي",
+    "nameEnglish": "Ali Hajjaj Alsouasi",
+    "image": "/images/reciters/77.jpg",
+    "aliases": [
+      "Ali Hajjaj Alsouasi"
+    ]
+  },
+  {
+    "id": 78,
+    "nameArabic": "عماد زهير حافظ",
+    "nameEnglish": "Emad Hafez",
+    "image": "/images/reciters/78.jpg",
+    "aliases": [
+      "Emad Hafez"
+    ]
+  },
+  {
+    "id": 8,
+    "nameArabic": "أحمد صابر",
+    "nameEnglish": "Ahmad Saber",
+    "image": "/images/reciters/8.jpg",
+    "aliases": [
+      "Ahmad Saber"
+    ]
+  },
+  {
+    "id": 82,
+    "nameArabic": "فهد العتيبي",
+    "nameEnglish": "Fahad Al-Otaibi",
+    "image": "/images/reciters/82.png",
+    "aliases": [
+      "Fahad Al-Otaibi"
+    ]
+  },
+  {
+    "id": 83,
+    "nameArabic": "فهد الكندري",
+    "nameEnglish": "Fahad Al-Kandari",
+    "image": "/images/reciters/83.jpg",
+    "aliases": [
+      "Fahad Al-Kandari"
+    ]
+  },
+  {
+    "id": 84,
+    "nameArabic": "فواز الكعبي",
+    "nameEnglish": "Fawaz Alkabi",
+    "image": "/images/reciters/84.jpg",
+    "aliases": [
+      "Fawaz Alkabi"
+    ]
+  },
+  {
+    "id": 85,
+    "nameArabic": "لافي العوني",
+    "nameEnglish": "Lafi Al-Oni",
+    "image": "/images/reciters/85.jpg",
+    "aliases": [
+      "Lafi Al-Oni"
+    ]
+  },
+  {
+    "id": 87,
+    "nameArabic": "نبيل الرفاعي",
+    "nameEnglish": "Nabil Al Rifay",
+    "image": "/images/reciters/87.jpg",
+    "aliases": [
+      "Nabil Al Rifay"
+    ]
+  },
+  {
+    "id": 9,
+    "nameArabic": "أحمد نعينع",
+    "nameEnglish": "Ahmad Nauina",
+    "image": "/images/reciters/9.jpg",
+    "aliases": [
+      "Ahmad Nauina"
+    ]
+  },
+  {
+    "id": 90,
+    "nameArabic": "وليد الدليمي",
+    "nameEnglish": "Walid Al-Dulaimi",
+    "image": "/images/reciters/90.jpg",
+    "aliases": [
+      "Walid Al-Dulaimi"
+    ]
+  },
+  {
+    "id": 91,
+    "nameArabic": "وليد النائحي",
+    "nameEnglish": "Waleed Alnaehi",
+    "image": "/images/reciters/91.jpg",
+    "aliases": [
+      "Waleed Alnaehi"
+    ]
+  },
+  {
+    "id": 93,
+    "nameArabic": "ياسر القرشي",
+    "nameEnglish": "Yasser Al-Qurashi",
+    "image": "/images/reciters/93.jpg",
+    "aliases": [
+      "Yasser Al-Qurashi"
+    ]
+  },
+  {
+    "id": 94,
+    "nameArabic": "ياسر الفيلكاوي",
+    "nameEnglish": "Yasser Al-Faylakawi",
+    "image": "/images/reciters/94.jpg",
+    "aliases": [
+      "Yasser Al-Faylakawi"
+    ]
+  },
+  {
+    "id": 95,
+    "nameArabic": "ياسر المزروعي",
+    "nameEnglish": "Yasser Al-Mazroyee",
+    "image": "/images/reciters/95.jpg",
+    "aliases": [
+      "Yasser Al-Mazroyee"
+    ]
+  },
+  {
+    "id": 96,
+    "nameArabic": "يحيى حوا",
+    "nameEnglish": "Yahya Hawwa",
+    "image": "/images/reciters/96.jpg",
+    "aliases": [
+      "Yahya Hawwa"
+    ]
+  },
+  {
+    "id": 97,
+    "nameArabic": "يوسف الشويعي",
+    "nameEnglish": "Yousef Alshoaey",
+    "image": "/images/reciters/97.jpg",
+    "aliases": [
+      "Yousef Alshoaey"
+    ]
+  },
+  {
+    "id": 14,
+    "nameArabic": "القارئ ياسين",
+    "nameEnglish": "Yassin Al-Jazaeri",
+    "image": "/images/reciters/14.jpg",
+    "aliases": [
+      "ياسين الجزائري"
+    ]
+  },
+  {
+    "id": 219,
+    "nameArabic": "وديع اليمني",
+    "nameEnglish": "Wadih Al-Yamani",
+    "image": "/images/reciters/219.jpg",
+    "aliases": [
+      "وديع حمادي اليمني"
+    ]
+  }
+]
