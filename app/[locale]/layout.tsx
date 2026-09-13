@@ -55,9 +55,17 @@ export async function generateMetadata({
         en: "/en",
       },
     },
+    manifest: "/manifest.json",
     icons: {
-      icon: "/images/logo/logo-icon.png",
-      apple: "/images/logo/logo-icon.png",
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/icon.png", type: "image/png" },
+        { url: "/images/logo/logo-icon.png", type: "image/png" },
+      ],
+      shortcut: "/favicon.ico",
+      apple: [
+        { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      ],
     },
     openGraph: {
       title: t("ogTitle"),
