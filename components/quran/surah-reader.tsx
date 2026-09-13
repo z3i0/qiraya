@@ -93,9 +93,8 @@ export function SurahReader({
         );
         const directUrl =
           target?.audioUrl ||
-          `https://cdn.islamic.network/quran/audio/128/${currentReciterInfo.editionId}/${
-            surahArabic.ayahs.find((a) => a.numberInSurah === ayahNum)?.number ||
-            ayahNum
+          `https://cdn.islamic.network/quran/audio/128/${currentReciterInfo.editionId}/${surahArabic.ayahs.find((a) => a.numberInSurah === ayahNum)?.number ||
+          ayahNum
           }.mp3`;
         playAyah(surahArabic, ayahNum, directUrl, ayahsAudioPlaylist);
       }
@@ -140,21 +139,6 @@ export function SurahReader({
       setCopiedAyah(ayah.numberInSurah);
       setTimeout(() => setCopiedAyah(null), 2000);
     });
-  };
-
-  const handleDownloadSurah = () => {
-    const info = resolveReciter(settings.audioReciter);
-    let url = getReciterAudioUrl(info.numericId, surahArabic.number);
-    if (!url) {
-      url = `https://cdn.islamic.network/quran/audio/128/${info.editionId}/${surahArabic.ayahs[0]?.number || 1}.mp3`;
-    }
-    const localizedReciterName =
-      getReciterDisplayName(info.numericId, locale) || info.nameArabic;
-    const filename = isRtl
-      ? `سورة ${surahArabic.name} - ${localizedReciterName}.mp3`
-      : `Surah ${surahArabic.englishName} - ${localizedReciterName}.mp3`;
-
-    downloadAudio(url, filename);
   };
 
   const handleDownloadAyah = (ayahNum: number) => {
@@ -202,22 +186,11 @@ export function SurahReader({
             <div />
           )}
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center">
             <ReadingSettingsDialog
               settings={settings}
               onUpdateSettings={updateSettings}
             />
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={handleDownloadSurah}
-              className="gap-1.5 text-xs font-medium border-border"
-              title={t("downloadSurah")}
-            >
-              <Download className="size-3.5" />
-              <span className="hidden sm:inline">{t("downloadSurah")}</span>
-              <span className="sm:hidden">{common("download")}</span>
-            </Button>
           </div>
 
           {nextSurahNum ? (
@@ -292,11 +265,10 @@ export function SurahReader({
                   if (el) ayahRefs.current.set(ayah.numberInSurah, el);
                   else ayahRefs.current.delete(ayah.numberInSurah);
                 }}
-                className={`group relative p-4 sm:p-6 rounded-2xl transition-all duration-200 border ${
-                  isRecitingThis
-                    ? "bg-primary/5 border-primary/40 ring-1 ring-primary/30 shadow-sm"
-                    : "bg-card/60 hover:bg-card border-border/60 hover:border-border"
-                }`}
+                className={`group relative p-4 sm:p-6 rounded-2xl transition-all duration-200 border ${isRecitingThis
+                  ? "bg-primary/5 border-primary/40 ring-1 ring-primary/30 shadow-sm"
+                  : "bg-card/60 hover:bg-card border-border/60 hover:border-border"
+                  }`}
               >
                 {/* Verse Header Actions */}
                 <div className="flex items-center justify-between gap-2 pb-3 mb-3 border-b border-border/40 text-xs text-muted-foreground">
@@ -349,9 +321,8 @@ export function SurahReader({
                           translationAyah?.text
                         )
                       }
-                      className={`rounded-full ${
-                        bookmarked ? "text-primary" : "text-muted-foreground"
-                      }`}
+                      className={`rounded-full ${bookmarked ? "text-primary" : "text-muted-foreground"
+                        }`}
                       aria-label={
                         bookmarked ? t("removeBookmark") : t("bookmark")
                       }
@@ -449,11 +420,10 @@ export function SurahReader({
                     if (el) ayahRefs.current.set(ayah.numberInSurah, el);
                     else ayahRefs.current.delete(ayah.numberInSurah);
                   }}
-                  className={`cursor-pointer transition-colors rounded-sm px-1 py-0.5 ${
-                    isRecitingThis
-                      ? "bg-primary/20 text-primary font-medium"
-                      : "hover:bg-muted/60"
-                  }`}
+                  className={`cursor-pointer transition-colors rounded-sm px-1 py-0.5 ${isRecitingThis
+                    ? "bg-primary/20 text-primary font-medium"
+                    : "hover:bg-muted/60"
+                    }`}
                   onClick={() => handleTogglePlayAyah(ayah.numberInSurah)}
                   title={`${surahArabic.name} (${ayah.numberInSurah})`}
                 >
