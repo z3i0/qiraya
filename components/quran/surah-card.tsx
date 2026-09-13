@@ -122,7 +122,7 @@ export function SurahCard({
         </div>
 
         <span
-          className="font-arabic text-xl text-muted-foreground/80 group-hover/surah:text-foreground transition-colors"
+          className="font-quran text-xl text-muted-foreground/80 group-hover/surah:text-foreground transition-colors"
           dir="rtl"
         >
           {surah.name}

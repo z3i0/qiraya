@@ -253,7 +253,7 @@ export function QuranSearch({ surahs }: QuranSearchProps) {
                       </p>
                     </div>
                   </div>
-                  <span className="font-arabic text-base text-muted-foreground" dir="rtl">
+                  <span className="font-quran text-lg text-muted-foreground" dir="rtl">
                     {surah.name}
                   </span>
                 </Card>

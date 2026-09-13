@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Sans_Arabic, Plus_Jakarta_Sans } from "next/font/google";
+import { IBM_Plex_Sans_Arabic, Plus_Jakarta_Sans, Amiri } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -26,6 +26,13 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   display: "swap",
 });
 
+const amiri = Amiri({
+  subsets: ["arabic"],
+  weight: ["400", "700"],
+  variable: "--font-quran",
+  display: "swap",
+});
+
 export async function generateMetadata({
   params,
 }: {
@@ -48,7 +55,7 @@ export async function generateMetadata({
       "Recitations",
       "Qiraya",
     ],
-    metadataBase: new URL("https://qiraya.app"),
+    metadataBase: new URL("https://qiraya-z3i0.vercel.app"),
     alternates: {
       canonical: `/${locale}`,
       languages: {
@@ -106,8 +113,9 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={dir}
-      className={`${ibmPlexSansArabic.variable} ${plusJakartaSans.variable} ${locale === "ar" ? "font-arabic" : "font-sans"
-        } h-full antialiased`}
+      className={`${ibmPlexSansArabic.variable} ${plusJakartaSans.variable} ${amiri.variable} ${
+        locale === "ar" ? "font-arabic" : "font-sans"
+      } h-full antialiased`}
       suppressHydrationWarning
     >
       <body
